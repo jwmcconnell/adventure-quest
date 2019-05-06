@@ -10,3 +10,5 @@ const api = {
     return user;
   }
 };
+
+export default api;
