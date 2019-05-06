@@ -1,0 +1,38 @@
+body {
+  background-color: #3E8989;
+  color: #35001C;
+  text-align: center;
+}
+
+form {
+  width: 25em;
+  margin: auto;
+}
+
+form * {
+  margin: 1em 0;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+input {
+  height: 1.5em;
+}
+
+fieldset input {
+  margin: 1em;
+  vertical-align: middle;
+}
+
+legend {
+  font-size: 1.1em;
+}
+
+button {
+  font-size: 1.2em;
+  width: 12em;
+  height: 2em;
+  color: #35001C;
+}
