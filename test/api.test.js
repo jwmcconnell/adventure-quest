@@ -1,19 +1,7 @@
+import api from '../src/services/api.js';
 const test = QUnit.test;
 
 QUnit.module('api');
-
-const api = {
-  storage: localStorage,
-  signUp(user) {
-    const json = JSON.stringify(user);
-    api.storage.setItem('user', json);
-  },
-  getUser() {
-    const json = api.storage.getItem('user');
-    const user = JSON.parse(json);
-    return user;
-  }
-};
 
 api.storage = sessionStorage;
 
