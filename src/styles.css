@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light');
+
 body {
-  background-color: #3E8989;
-  color: #35001C;
+  background-color: #303030;
+  color: white;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 header {
-  background-color: #4D7191;
+  background-color: #212121;
   margin: 0;
-  
+  font-family: 'Shadows Into Light', cursive;
 }
 
 h1 {
@@ -46,5 +49,7 @@ button {
   font-size: 1.2em;
   width: 12em;
   height: 2em;
-  color: #35001C;
+  color: #E3F2FD;
+  background-color: #0D47A1;
+  border: black;
 }
