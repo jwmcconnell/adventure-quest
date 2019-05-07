@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./src/styles.css">
+  <title>Adventure Quest</title>
+</head>
+
+<body>
+  <header>
+    <section id="logo">
+      <img src="../../assets/dragon.png" alt="Flying dragon with mouth open">
+    </section>
+    <h1>Jack's Adventure Quest</h1>
+    <section id="logo">
+      <img src="../../assets/dragon.png" alt="Flying dragon with mouth open">
+    </section>
+  </header>
+  <main>
+    <h2>Choose your Character!</h2>
+    <form id="user-form">
+      <label for="username">Username:
+        <input id="username" name="username" type="text">
+      </label>
+      <fieldset>
+        <legend>Pick your class:</legend>
+        <label>
+          <input type="radio" name="class" required value="warrior">
+          warrior
+        </label>
+        <label>
+          <input type="radio" name="class" required value="priest">
+          priest
+        </label>
+        <label>
+          <input type="radio" name="class" required value="wizard">
+          wizard
+        </label>
+        <label>
+          <input type="radio" name="class" required value="rogue">
+          rogue
+        </label>
+      </fieldset>
+      <button id="submit">Start Your Adventure!</button>
+    </form>
+  </main>
+  <script type="module" src="./src/home/index.js"></script>
+</body>
+
+</html>
