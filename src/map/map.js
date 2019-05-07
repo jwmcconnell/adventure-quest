@@ -14,6 +14,6 @@ if(!user) {
 
 username.textContent = user.username;
 userClass.textContent = user.class;
-health.textContent = user.health;
-power.textContent = user.power;
-gold.textContent = user.gold;
+health.textContent = 'Health: ' + user.health;
+power.textContent = 'Power: ' + user.power;
+gold.textContent = 'Gold: ' + user.gold;

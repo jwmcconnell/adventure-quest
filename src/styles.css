@@ -8,11 +8,12 @@ body {
 header {
   background-color: #4D7191;
   margin: 0;
-  padding: 2em;
+  
 }
 
 h1 {
   margin: 0;
+  padding: 1em;
 }
 
 form {
