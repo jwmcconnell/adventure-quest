@@ -1,17 +1,7 @@
-import createChoice from '../src/quest/create-choice.js';
+import findById from '../src/find-by-id.js';
 const test = QUnit.test;
 
 QUnit.module('findById');
-
-function findById(items, id) {
-  for(let i = 0; i < items.length; i++) {
-    let item = items[i];
-    if(item.id === id) {
-      return item;
-    }
-  }
-  return null;
-}
 
 test('Get an item based on its id', (assert) => {
   //Arrange
