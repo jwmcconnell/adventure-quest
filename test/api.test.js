@@ -16,7 +16,6 @@ test('Round trip user data', (assert) => {
     username: 'Olaf',
     class: 'warrior',
     health: 100,
-    power: 10,
     gold: 100
   };
   //Act 
