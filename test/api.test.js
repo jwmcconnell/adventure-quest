@@ -37,3 +37,14 @@ test('Get quests from api', (assert) => {
   //Assert
   assert.deepEqual(result, expected);
 });
+
+test('Get quests by id', (assert) => {
+  //Arrange
+  // Set up your parameters and expectations
+  const expected = quests[1];
+  //Act 
+  // Call the function you're testing and set the result to a const
+  const result = api.getQuest(expected.id);
+  //Assert
+  assert.deepEqual(result, expected);
+});
