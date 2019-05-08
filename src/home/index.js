@@ -9,7 +9,7 @@ userForm.addEventListener('submit', (event) => {
   const formData = new FormData(userForm);
   const user = makeUser(formData);
 
-  api.signUp(user);
+  api.saveUser(user);
 
   window.location = '../../src/map/';
 });
