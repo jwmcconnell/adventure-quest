@@ -11,5 +11,5 @@ userForm.addEventListener('submit', (event) => {
 
   api.signUp(user);
 
-  window.location = '../../src/map/map.html';
+  window.location = '../../src/map/';
 });
