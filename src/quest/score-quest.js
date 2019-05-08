@@ -1,6 +1,7 @@
-function scoreQuest(user, choice) {
+function scoreQuest(user, choice, quest) {
   user.health += choice.health;
   user.gold += choice.gold;
+  user.completed[quest.id] = true;
   return user;
 }
 

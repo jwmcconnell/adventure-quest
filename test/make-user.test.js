@@ -13,7 +13,8 @@ test('Create user from signup page data', (assert) => {
     username: 'Olaf',
     class: 'warrior',
     health: 100,
-    gold: 100
+    gold: 100,
+    completed: {}
   };
   //Act 
   // Call the function you're testing and set the result to a const
