@@ -38,7 +38,7 @@ form.addEventListener('submit', event => {
   const choiceData = findById(quest.choices, choiceId);
   const result = getResultForClass(user, choiceData.results);
 
-  user = scoreQuest(user, result);
+  user = scoreQuest(user, result, quest);
   api.saveUser(user);
   loadProfile();
 
