@@ -17,7 +17,7 @@ function createChoice(choice) {
   return label;
 }
 
-test('Create html span to represent completed quest', (assert) => {
+test('Create html label and input for a quest choice', (assert) => {
   //Arrange
   const choice = {
     id: 'fight',
