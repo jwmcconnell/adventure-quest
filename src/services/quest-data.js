@@ -13,14 +13,14 @@ const rescue = {
       text: `
       Luckily you brought your armour and sword or you might have been in a world of hurt.  You handle the three goblins that were behind you but you don't escape unsathed. You do hower get out with the Princess.
       `,
-      hp: -10,
+      health: -10,
       gold: 50
     }, {
       id: 'any',
       text: `
       You are underprepared for what awaits behind you and are subdued quickly. They take your money and beat you up before dragging you outside.
       `,
-      hp: -30,
+      health: -30,
       gold: -50
     }]
   }, {
@@ -33,7 +33,7 @@ const rescue = {
       think might slow them down. In the commotion you lose the goblins and are able to double
       back to complete your quest. You heal all of your injuries.
       `,
-      hp: 0,
+      health: 0,
       gold: 50
     }, {
       id: 'any',
@@ -42,7 +42,7 @@ const rescue = {
       adreniline has masked some of the pain from a couple arrows they sent your way, but you
       can certainly feel them now.
       `,
-      hp: -50,
+      health: -50,
       gold: -50
     }]
   }, {
@@ -56,7 +56,7 @@ const rescue = {
       into making a fire illusion fill the room. The goblins are to frightend to notice which
       way you decided to go and you make it out unscathed with the Princess.
       `,
-      hp: 0,
+      health: 0,
       gold: 50
     }, {
       id: 'any',
@@ -65,7 +65,7 @@ const rescue = {
       than you had thought and had bolted it to the wall. This frustrates the goblins so they 
       beat you up and take your money.
       `,
-      hp: -50,
+      health: -50,
       gold: -50
     }]
   }, {
@@ -78,7 +78,7 @@ const rescue = {
       you can have the Princess they captured. The goblins agree and don't notice you pocketing
       anything you can on the way out.
       `,
-      hp: 0,
+      health: 0,
       gold: 80
     }, {
       id: 'any',
@@ -86,7 +86,7 @@ const rescue = {
       You try to sell them you life story as a theif but they aren't buying it. The eventualy get
       tired of talking so they beat you up and kick you out
       `,
-      hp: -30,
+      health: -30,
       gold: -50
     }]
   }]
@@ -112,14 +112,14 @@ const assassinate = {
       immidiatly restrained following. You are taken into custody and your
       belongings are taken. Soon after you hear the king is dead and there is the sound of celebration as it turns out not many wanted to fight the kings war.
       `,
-      hp: -10,
+      health: -10,
       gold: 50
     }, {
       id: 'any',
       text: `
       You make your hasty attempt but are overwhelmed by guards as soon as you get close. They beat you and take your money as a message to anyone else who dares kill the king.
       `,
-      hp: -50,
+      health: -50,
       gold: -50
     }]
   }, {
@@ -134,7 +134,7 @@ const assassinate = {
       one of him most loyal men but as soon as you are behind closed doors you 
       finish the job. While you are in his home you take some souvineers.
       `,
-      hp: 0,
+      health: 0,
       gold: 70
     }, {
       id: 'any',
@@ -144,7 +144,7 @@ const assassinate = {
       They find your orders to kill their King in your pocket, so they beat you 
       up and take your money.
       `,
-      hp: -50,
+      health: -50,
       gold: -50
     }]
   }, {
@@ -158,7 +158,7 @@ const assassinate = {
       In the commotion the King doesn't make it out alive and nobody can pinpoint where or 
       how the fire started.
       `,
-      hp: 0,
+      health: 0,
       gold: 50
     }, {
       id: 'any',
@@ -167,7 +167,7 @@ const assassinate = {
       fire, some guards notice you and kick you out of the area. Now that they are on higher alert,
       you are unable to complete your quest.
       `,
-      hp: 0,
+      health: 0,
       gold: 0
     }]
   }, {
@@ -180,7 +180,7 @@ const assassinate = {
       you can have the Princess they captured.  The goblins agree and don't notice you pocketing
       anything you can on the way out.
       `,
-      hp: 0,
+      health: 0,
       gold: 80
     }, {
       id: 'any',
@@ -188,7 +188,7 @@ const assassinate = {
       You try to sell them you life story as a theif but they aren't buying it.  The eventualy get
       tired of talking so they beat you up and kick you out
       `,
-      hp: -30,
+      health: -30,
       gold: -50
     }]
   }]

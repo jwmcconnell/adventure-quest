@@ -9,7 +9,7 @@ test('Create html label and input for a quest choice', (assert) => {
     id: 'fight',
     description: 'Charge him at first site'
   };
-  const expected = '<label>Charge him at first site<input type="radio" name="quest-choices" required="true" value="fight"></label>';
+  const expected = '<label>Charge him at first site<input type="radio" name="quest-choice" required="true" value="fight"></label>';
   //Act 
   const result = createChoice(choice);
   //Assert

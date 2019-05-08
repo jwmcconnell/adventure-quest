@@ -4,7 +4,7 @@ function createChoice(choice) {
 
   const input = document.createElement('input');
   input.type = 'radio';
-  input.name = 'quest-choices';
+  input.name = 'quest-choice';
   input.setAttribute('required', true);
   input.value = choice.id;
 
