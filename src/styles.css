@@ -17,6 +17,11 @@ header {
   text-align: center;
 }
 
+#user-info {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+
 h1 {
   margin: 0;
   padding: 1em;
