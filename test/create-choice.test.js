@@ -1,21 +1,7 @@
+import createChoice from '../src/quest/create-choice.js';
 const test = QUnit.test;
 
 QUnit.module('createChoice');
-
-function createChoice(choice) {
-  const label = document.createElement('label');
-  label.textContent = choice.description;
-
-  const input = document.createElement('input');
-  input.type = 'radio';
-  input.name = 'quest-choices';
-  input.setAttribute('required', true);
-  input.value = choice.id;
-
-  label.appendChild(input);
-
-  return label;
-}
 
 test('Create html label and input for a quest choice', (assert) => {
   //Arrange
