@@ -1,4 +1,4 @@
-import findById from '../src/find-by-id.js';
+import getResultForClass from '../src/quest/get-result-for-class.js';
 
 const test = QUnit.test;
 
@@ -68,10 +68,3 @@ test('Get the general result for class not matching', (assert) => {
   assert.deepEqual(result, expected);
 });
 
-function getResultForClass(user, results) {
-  let result = findById(results, user.class);
-  if(!result) {
-    result = findById(results, 'any');
-  }
-  return result;
-}

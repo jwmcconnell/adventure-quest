@@ -1,12 +1,8 @@
+import scoreQuest from '../src/quest/score-quest.js';
+
 const test = QUnit.test;
 
 QUnit.module('scoreQuest');
-
-function scoreQuest(user, choice) {
-  user.health += choice.health;
-  user.gold += choice.gold;
-  return user;
-}
 
 test('Score quest based on user choice', (assert) => {
   //Arrange
