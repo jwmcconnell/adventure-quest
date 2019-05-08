@@ -1,7 +1,7 @@
 const rescue = {
   id: 'rescue',
   title: 'Rescue the Princess',
-  image: '',
+  image: 'dragon.png',
   description: `
   You are tasked with rescuing a Princess who has been captured by the evil goblins. As you approach her cell in the underground underground lair you find ablade at your throat. What do you do?
   `,
@@ -95,7 +95,7 @@ const rescue = {
 const assassinate = {
   id: 'assassinate',
   title: 'Assassinate the Evil King',
-  image: '',
+  image: 'dragon.png',
   description: `
   An evil king has been encrouching on your home land and you are tasked with
   ending his life in order to stop the impending war he seems determined to 
