@@ -29,3 +29,11 @@ nav {
   width: 90vw;
   height: calc(90vw * 1417 / 2000);
 }
+
+.quest {
+  position: absolute;
+}
+
+.quest.completed {
+  color: black;
+}
