@@ -14,3 +14,26 @@ header {
 span {
   padding: 1em;
 }
+
+a {
+  display: block;
+  margin: .5em;
+}
+
+nav {
+  background-image: url('../../assets/map.jpg');
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 90vw;
+  height: calc(90vw * 1417 / 2000);
+}
+
+.quest {
+  position: absolute;
+}
+
+.quest.completed {
+  color: black;
+}

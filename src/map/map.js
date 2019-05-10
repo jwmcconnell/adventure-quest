@@ -1,19 +1,21 @@
+import loadProfile from '../load-profile.js';
 import api from '../services/api.js';
+import createQuestLink from './create-quest-link.js';
+import createCompletedQuest from './create-completed-quest.js';
 
-const username = document.getElementById('username');
-const userClass = document.getElementById('class');
-const health = document.getElementById('health');
-const power = document.getElementById('power');
-const gold = document.getElementById('gold');
+loadProfile();
 
+const nav = document.getElementById('quests');
+
+const quests = api.getQuests();
 const user = api.getUser();
 
-if(!user) {
-  window.location = '../../';
+for(let i = 0; i < quests.length; i++) {
+  let link = null;
+  if(user.completed[quests[i].id]) {
+    link = createCompletedQuest(quests[i]);
+  } else {
+    link = createQuestLink(quests[i]);
+  }
+  nav.appendChild(link);
 }
-
-username.textContent = user.username;
-userClass.textContent = user.class;
-health.textContent = 'Health: ' + user.health;
-power.textContent = 'Power: ' + user.power;
-gold.textContent = 'Gold: ' + user.gold;

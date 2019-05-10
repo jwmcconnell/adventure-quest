@@ -17,6 +17,11 @@ header {
   text-align: center;
 }
 
+#user-info {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+
 h1 {
   margin: 0;
   padding: 1em;
@@ -55,4 +60,8 @@ button {
   color: #E3F2FD;
   background-color: #0D47A1;
   border: black;
+}
+
+.hidden {
+  display: none;
 }
