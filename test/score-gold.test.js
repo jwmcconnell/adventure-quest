@@ -1,18 +1,7 @@
+import scoreGold from '../src/end/score-gold.js';
 const test = QUnit.test;
 
 QUnit.module('scoreGold');
-
-function scoreGold(user) {
-  if(user.gold < 50) {
-    return 'poor';
-  }
-  else if(user.gold < 125) {
-    return 'wealthy';
-  }
-  else {
-    return 'rich';
-  }
-}
 
 test('user is poor', (assert) => {
   //Arrange

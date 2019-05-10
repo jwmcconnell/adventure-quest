@@ -1,21 +1,7 @@
+import scoreHealth from '../src/end/score-health.js';
 const test = QUnit.test;
 
 QUnit.module('scoreHealth');
-
-function scoreHealth(user) {
-  if(user.health < 1) {
-    return 'dead';
-  }
-  else if(user.health < 30) {
-    return 'weak';
-  }
-  else if(user.health < 60) {
-    return 'good';
-  }
-  else if(user.health <= 100) {
-    return 'great';
-  }
-}
 
 test('user is dead', (assert) => {
   //Arrange
