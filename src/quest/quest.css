@@ -1,3 +1,11 @@
 label {
   display: block;
 }
+
+label input {
+  margin: 10px;
+}
+
+#quest-description, #quest-result {
+  margin: 2em 4em;
+}
