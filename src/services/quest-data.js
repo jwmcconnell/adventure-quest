@@ -231,7 +231,7 @@ const monster = {
       You soon realize this might not have been a smart idea as the beast bites a hole in your boat. You decided after the boat is no
       longer on the surface this might not be a good idea anymore. You swim away with some injuries for your time.
       `,
-      health: 20,
+      health: -20,
       gold: 0
     }]
   }, {

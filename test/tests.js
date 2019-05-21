@@ -6,3 +6,7 @@ import './create-choice.test.js';
 import './find-by-id.test.js';
 import './score-quest.test.js';
 import './get-result-for-class.test.js';
+import './has-completed-all-quests.test.js';
+import './is-dead.test.js';
+import './score-gold.test.js';
+import './score-health.test.js';
